@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Ezo Kitchen & Sushi Bar</title>
+    <link rel="stylesheet" href="divstyles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+    <div class="navbar-left">
+        <img src="ezologo.png" alt="Ezo Kitchen & Sushi Bar Logo">
+        <span class="navbar-title">EZO KITCHEN & SUSHI BAR</span>
+    </div>
+    
+    <ul class="navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+    <!-- Feedback Section -->
+<div class="feedback-section">
+    <h1>Feedback</h1>
+    <p>At Ezo’s, we value the opinions of all of our beloved customers. Any ideas on how to improve Ezo’s? Any items you’d like to see added into the menu? Write them all below!</p>
+
+    <!-- Feedback Form Table -->
+    <form action="/submit-feedback" method="POST">
+        <table class="feedback-table">
+            <tr>
+                <td><label for="first-name">First Name:</label></td>
+                <td><input type="text" id="first-name" name="first-name" required></td>
+            </tr>
+            <tr>
+                <td><label for="last-name">Last Name:</label></td>
+                <td><input type="text" id="last-name" name="last-name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+        </table>
+
+<div class=type>
+        <!-- Feedback Text Area -->
+        <label for="response">Type your response here:</label><br>
+        <textarea id="response" name="response" required></textarea><br>
+</div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Feedback</button>
+    </form>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- Footer with Business Hours and Contact Info -->
+<div class="footer">
+    <img src="ezologo.png" alt="Ezo Kitchen & Sushi Bar Logo">
+    
+    <table style="width: 100%; text-align: center; margin-top: 20px;">
+        <tr>
+            <!-- Business Hours Section -->
+            <td style="vertical-align: top;">
+                <h3>Business Hours</h3>
+                <p>Monday - Thursday: 11:30 AM - 9:30 PM<br>
+                   Friday - Sunday: 11:30 AM - 11:00 PM</p>
+            </td>
+            
+            <!-- Contact Us Section -->
+            <td style="vertical-align: top;">
+                <h3>Contact Us</h3>
+                <p>Phone: (917)-543-1235<br>
+                   Email: ezokitchenbar@gmail.com</p>
+            </td>
+        </tr>
+    </table>
+
+    <div class="social-media" style="text-align: center; margin-top: 20px;">
+        <img src="facebook.png" alt="Facebook" style="width: 24px; height: 24px; margin-right: 10px;">
+        <img src="instagram.png" alt="Instagram" style="width: 24px; height: 24px; margin-right: 10px;">
+        <img src="tiktok.png" alt="TikTok" style="width: 24px; height: 24px;">
+    </div>
+</div>
+
+</body>
+</html>
