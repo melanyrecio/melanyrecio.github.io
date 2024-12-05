@@ -1,0 +1,824 @@
+
+/* BACKGROUNDANDTITLEBACKGROUNDANDTITLEBACKGROUNDANDTITLEBACKGROUNDANDTITLE */
+
+
+/* Apply to the whole page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 100%;
+}
+
+
+/* Background settings */
+.background-image {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /
+    min-height: 100%; 
+    background-image: url('fragmentsofme/background.jpg'); 
+    background-repeat: repeat-y; 
+    background-size: cover; 
+    z-index: -1; 
+}
+
+/* Prevent stretching of the background image */
+.background-image img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+/* Title container to place the title image on top */
+.title-container {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+/* Styling for the title image */
+.title-container img {
+    max-width: 80%; 
+    height: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* INTROSTATEMENTINTROSTATEMENTINTROSTATEMENTINTROSTATEMENTINTROSTATEMENTINTROSTATEMENT */
+
+
+
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.intro-text {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 40%;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+}
+
+.intro-text p {
+    margin: 0.5em 0;
+}
+
+
+
+
+
+/* TIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINE  */
+
+
+
+/* Container for the timeline */
+.timeline-container {
+    position: absolute;
+    right: 10%; 
+    top: 0;
+    height: 2400px;
+    width: 2px; 
+    background-color: #8F8761; 
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+.timeline-circle1 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 54px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle1:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+
+.timeline-circle2 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 169px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle2:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle3 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 275px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle3:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle4 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 389px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle4:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle5 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 496px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle5:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle6 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 610px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle6:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle7 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 723px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle7:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle8 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 834px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle8:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+
+.timeline-circle9 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 944px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle9:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle10 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1055px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle10:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle11 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1165px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle11:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle12 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1276px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle12:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle13 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1385px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle13:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle14 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1499px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle14:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle15 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1609px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle15:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle16 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1720px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle16:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle17 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1831px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle17:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle18 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 1942px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle18:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle19 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 2053px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle19:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+
+.timeline-circle20 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 2164px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle20:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+.timeline-circle21 {
+   position: absolute;
+    right: -14px; 
+    width: 30px; 
+    margin-top: 2275px;
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #4F4C3E; 
+    z-index: 3; 
+}
+
+/* Hover effect */
+.timeline-circle21:hover { 
+    box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic styling for the circles */
+.timeline-circle {
+    position: absolute;
+    right: -9px; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: #8F8761; 
+    z-index: 10; 
+    transition: transform 0.3s ease; 
+}
+
+/* Hover effect */
+.timeline-circle:hover {
+    transform: scale(1.8); 
+    box-shadow: 0 0 15px 5px rgba(190, 160, 120, 0.8); 
+}
+
+/* Evenly spaced circles along the timeline, avoiding touching the top and bottom */
+.timeline-circle:nth-child(1) {
+    top: 2.5%; 
+}
+.timeline-circle:nth-child(2) {
+    top: 7.14%;
+}
+.timeline-circle:nth-child(3) {
+    top: 11.76%;
+}
+.timeline-circle:nth-child(4) {
+    top: 16.38%;
+}
+.timeline-circle:nth-child(5) {
+    top: 21.0%;
+}
+.timeline-circle:nth-child(6) {
+    top: 25.62%;
+}
+.timeline-circle:nth-child(7) {
+    top: 30.24%;
+}
+.timeline-circle:nth-child(8) {
+    top: 34.86%;
+}
+.timeline-circle:nth-child(9) {
+    top: 39.48%;
+}
+.timeline-circle:nth-child(10) {
+    top: 44.1%;
+}
+.timeline-circle:nth-child(11) {
+    top: 48.72%;
+}
+.timeline-circle:nth-child(12) {
+    top: 53.34%;
+}
+.timeline-circle:nth-child(13) {
+    top: 57.96%;
+}
+.timeline-circle:nth-child(14) {
+    top: 62.58%;
+}
+.timeline-circle:nth-child(15) {
+    top: 67.2%;
+}
+.timeline-circle:nth-child(16) {
+    top: 71.82%;
+}
+.timeline-circle:nth-child(17) {
+    top: 76.44%;
+}
+.timeline-circle:nth-child(18) {
+    top: 81.06%;
+}
+.timeline-circle:nth-child(19) {
+    top: 85.68%;
+}
+.timeline-circle:nth-child(20) {
+    top: 90.3%;
+}
+.timeline-circle:nth-child(21) {
+    top: 94.92%; 
+}
+
+
+
+
+
+
+/* Styling for the timeline dates container */
+.timeline-dates {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+    left: 85%; /* Center it horizontally or adjust to fit */
+    margin-top: 40px;
+}
+
+
+/* Styling for the individual dates */
+.timeline-date {
+    position: relative;
+    font-size: 0.9rem; 
+    color: black; 
+}
+
+
+
+/* Manually adjust each date's position */
+.timeline-date:nth-child(1) {
+    top: 20px; 
+}
+
+.timeline-date:nth-child(2) {
+    top: 20px;
+}
+
+.timeline-date:nth-child(3) {
+    top: 18px;
+}
+
+.timeline-date:nth-child(4) {
+    top: 15px;
+}
+
+.timeline-date:nth-child(5) {
+    top: 13px;
+}
+
+.timeline-date:nth-child(6) {
+    top: 12px;
+}
+
+.timeline-date:nth-child(7) {
+    top: 10px;
+}
+
+.timeline-date:nth-child(8) {
+    top: 8px;
+}
+
+.timeline-date:nth-child(9) {
+    top: 6px;
+}
+
+.timeline-date:nth-child(10) {
+    top: 4px;
+}
+
+.timeline-date:nth-child(11) {
+    top: 3px;
+}
+
+.timeline-date:nth-child(12) {
+    top: -1px;
+}
+
+.timeline-date:nth-child(13) {
+    top: -3px;
+}
+
+.timeline-date:nth-child(14) {
+    top: -5px;
+}
+
+.timeline-date:nth-child(15) {
+    top: -7px;
+}
+
+.timeline-date:nth-child(16) {
+    top: -9px;
+}
+
+.timeline-date:nth-child(17) {
+    top: -11px;
+}
+
+.timeline-date:nth-child(18) {
+    top: -13px;
+}
+.timeline-date:nth-child(19) {
+    top: -15px;
+}
+
+.timeline-date:nth-child(20) {
+    top: -17px;
+}
+
+.timeline-date:nth-child(21) {
+    top: -19px;
+}
+
+
+
+
+/* PAGE1PAGE1PAGE1PAGE1PAGE1PAGE1PAGE1 */
+
+
+
+.image-container {
+    position: relative;
+    top: 230px;
+    height: 100vh; /* This makes the container take the full viewport height */
+    overflow: hidden; /* Hide anything that overflows this container */
+}
+
+.overlay-image {
+    position: absolute;
+    left: 0; /* Default position for the first image */
+}
+
+.image-container2 {
+    position: relative;
+    top: 300px;
+    margin-left: 200px;
+    height: 10px; /* This makes the container take the full viewport height */
+    width: 10px;
+}
+
+.overlay-image2 {
+    position: absolute;
+    left: 0; /* Default position for the first image */
+}
+
+
+.overlay-image-right {
+    position: absolute;
+    left: 5%; /* Adjust this value to move the image more to the right */
+}
+
+.overlay-image3 {
+    position: absolute;
+    width: 400px;
+    top: 10px;
+    left: 8%; /* Adjust this value to move the image more to the right */
+}
+
+.overlay-image4 {
+    position: absolute;
+    width: 450px;
+    top: 20px;
+    left: 6%; /* Adjust this value to move the image more to the right */
+}
+
+.overlay-image5 {
+    position: absolute;
+    width: 480px;
+    top: 30px;
+    margin-left: 68px;
+}
+
+
+
+
+.page1-text {
+    position: relative;
+    top: -420px;
+    height: 100vh; /* This makes the container take the full viewport height */
+    overflow: hidden; /* Hide anything that overflows this container */
+    width: 30%;
+    margin-left: 630px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Play Button */
+        .play-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #8F8761;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: relative;
+            margin-top: 20px; /* Adds space between text and button */
+        }
+
+        /* Triangle for Play Icon (Pointing Right) */
+        .triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 20px solid white;  /* This creates the triangle pointing to the right */
+        }
+
+        /* Pause Icon when Audio is Playing */
+.playing .triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: relative;
+    width: 30px;  /* Adjust the width */
+    height: 20px; /* Adjust the height */
+}
+
+/* Create the vertical bars for the Pause Icon */
+.playing .triangle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 3px;   /* Adjust left position to center the bar */
+    width: 8px;  /* Adjust width of the bars */
+    height: 20px;
+    background-color: white;
+}
+
+.playing .triangle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 3px;  /* Adjust right position to center the bar */
+    width: 8px;  /* Adjust width of the bars */
+    height: 20px;
+    background-color: white;
+}
+
+.playbutton-text {
+    loat: left; /* Float the text to the left */
+    margin-left: 80px; /* Adds space between button and text */
+    font-size: 14px;
+    margin-top: -62px;
+    color: #000;
+    line-height: 50px; 
+}
+
+/* Pressed Effect */
+.play-button:active {
+    transform: scale(0.95); /* Slightly shrink the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow to mimic pressing */
+}
+
+.play-button:hover {
+}
+
+/* PAGE2PAGE1PAGE1PAGE1PAGE1PAGE1PAGE1 */
+
+
+.page2-text {
+    position: relative;
+    top: -420px;
+    height: 100vh; /* This makes the container take the full viewport height */
+    overflow: hidden; /* Hide anything that overflows this container */
+    width: 30%;
+    margin-left: 630px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+
+
