@@ -8,12 +8,7 @@ html, body {
     padding: 0;
     height: 100%; 
     width: 100%;
-    cursor: url('cursor.png'), auto;
-}
 
-a {
-cursor: url('cursor.png'), auto;
-}
 
 
 /* Background settings */
@@ -50,7 +45,6 @@ cursor: url('cursor.png'), auto;
 .title-container img {
     max-width: 80%; 
     height: auto; 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 
@@ -87,12 +81,6 @@ body {
 
 /* TIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINETIMELINE  */
 
-
-.timeline div:hover {
-cursor: url('hover-cursor.png'), auto;
-}
-
-
 /* Container for the timeline */
 .timeline-container {
     position: absolute;
@@ -102,7 +90,6 @@ cursor: url('hover-cursor.png'), auto;
     width: 2px; 
     background-color: #8F8761; 
     z-index: 2;
-    cursor: url('hover-cursor.png'), auto; 
 }
 
 
@@ -136,7 +123,6 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle1:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 .timeline-circle2 {
@@ -153,7 +139,6 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle2:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 .timeline-circle3 {
@@ -170,7 +155,6 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle3:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 .timeline-circle4 {
@@ -187,7 +171,6 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle4:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 .timeline-circle5 {
@@ -204,7 +187,6 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle5:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 .timeline-circle6 {
@@ -221,7 +203,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle6:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle7 {
@@ -238,7 +220,6 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle7:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
 }
 
 .timeline-circle8 {
@@ -255,7 +236,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle8:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 
@@ -273,7 +254,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle9:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle10 {
@@ -290,7 +271,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle10:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle11 {
@@ -307,7 +288,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle11:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle12 {
@@ -324,7 +305,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle12:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle13 {
@@ -341,7 +322,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle13:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle14 {
@@ -358,7 +339,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle14:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle15 {
@@ -375,7 +356,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle15:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle16 {
@@ -392,7 +373,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle16:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle17 {
@@ -409,7 +390,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle17:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle18 {
@@ -426,7 +407,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle18:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle19 {
@@ -443,7 +424,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle19:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 
@@ -461,7 +442,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle20:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 .timeline-circle21 {
@@ -478,7 +459,7 @@ cursor: url('hover-cursor.png'), auto;
 /* Hover effect */
 .timeline-circle21:hover { 
     box-shadow: 0 0 15px 5px rgb(79, 76, 62); 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 
@@ -507,7 +488,7 @@ cursor: url('hover-cursor.png'), auto;
     background-color: #8F8761; 
     z-index: 3; 
     transition: transform 0.3s ease; 
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 /* Hover effect */
@@ -773,7 +754,7 @@ cursor: url('hover-cursor.png'), auto;
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
+            : pointer;
             position: relative;
             margin-top: 20px; /* Adds space between text and button */
         }
@@ -837,7 +818,7 @@ cursor: url('hover-cursor.png'), auto;
 }
 
 .play-button:hover {
-    cursor: url('hover-cursor.png'), auto;
+
 }
 
 /* PAGE2PAGE1PAGE1PAGE1PAGE1PAGE1PAGE1 */
