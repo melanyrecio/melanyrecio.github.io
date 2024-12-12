@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('desktopbackground.png');
+  background-size: cover; /* Ensures the image covers the width and height */
+  background-position: center; /* Centers the image to balance cropping */
+  background-attachment: relative; 
+  background-repeat: no-repeat; 
+  color: white; 
+}
+
+
+.folder {
+  position: absolute;
+  width: 95px;  /* Folder width */
+  height: 60px; /* Folder height */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Folder 1 */
+#folder1 {
+  top: 50%;   /* Positioning from the top of the screen */
+  left: 15%;  /* Positioning from the left side of the screen */
+}
+
+/* Folder 2 */
+#folder2 {
+  top: 60%;   /* Positioning from the top of the screen */
+  left: 50%;  /* Positioning from the left side of the screen */
+  transform: translateX(-50%); /* Centers the folder horizontally */
+}
+
+/* Folder 3 */
+#folder3 {
+  top: 70%;   /* Positioning from the top of the screen */
+  left: 80%;  /* Positioning from the left side of the screen */
+  transform: translateX(-100%); /* Adjusting the folder to the left */
+}
+
+.label {
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont;
+  color: white;
+  font-size: 12px; /* Adjust the font size as needed */
+  font-weight: normal;
+}
+
+/* Label for Folder 1 */
+#label1 {
+  top: 59%;   /* Adjust to position below folder */
+  left: 16.5%;  /* Align with folder 1 */
+}
+
+/* Label for Folder 2 */
+#label2 {
+  top: 69%;   /* Adjust to position below folder */
+  left: 50%;  /* Align with folder 2 */
+  transform: translateX(-50%); /* Center text horizontally */
+}
+
+/* Label for Folder 3 */
+#label3 {
+  top: 79%;   /* Adjust to position below folder */
+  left: 80%;  /* Align with folder 3 */
+  transform: translateX(-100%); /* Adjust the text to align with the folder */
+}
+
+.clickable-icon {
+  position: absolute;
+  top:94.3%;
+  width: 37px;  /* Folder width */
+  height: 34px; /* Folder height */
+  margin-left: 595px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor:pointer;
+}
+
+
+/* Popup (hidden by default) */
+.popup {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 30%;   /* Position it below the folder image */
+  left: 15%;  /* Position it similarly to the folder image */
+  width: 400px;  /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
+}
+
+/* Image inside the popup */
+.popup video {
+  width: 100%;  /* Make the popup image fit its container */
+  height: 100%; /* Make the popup image fit its container */
+}
+

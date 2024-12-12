@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mel's desktop! :-)</title>
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="icon" href="favicon.png" type="image/png">
+
+</head>
+
+<body>
+
+<a href="https://melanyrecio.github.io/ctrlfreak/" target="_blank">
+  <img src="folder.png" alt="Folder 1" class="folder" id="folder1">
+</a>
+
+<a href="https://melanyrecio.github.io/ezokitchenandsushibar/" target="_blank">
+  <img src="folder2.png" alt="Folder 2" class="folder" id="folder2">
+</a>
+
+<a href="https://melanyrecio.github.io/fragmentsofme/" target="_blank">
+  <img src="folder3.png" alt="Folder 3" class="folder" id="folder3">
+</a>
+
+ <span class="label" id="label1">ctrl freak</span>
+  <span class="label" id="label2">Ezo's Kitchen</span>
+  <span class="label" id="label3">Fragments of Me</span>
+
+<!-- Folder image that acts like a clickable app icon (notes.png) -->
+  <img id="notesIcon" src="notes.png" alt="Notes App" class="clickable-icon" onclick="togglePopup()">
+  
+ <div class="popup">
+  <video id="popupVideo" autoplay loop>
+    <source src="notespopup.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
